@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url("/pictures/360_F_337963325_EJuPjWslX3vAFxJ59L3y1cm6IsSfo07s.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ContactImage {
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    position: relative;
+}
+.imageOfPhone {
+    height: auto;
+    width: 80%;
+}
+.ContactImage.btn {
+    height: 2rem;
+    width: 5rem;
+}
+.btnDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 1.5rem;
+}
+.AboutUs {
+    height: 2rem;
+    width: 5rem;
+    background: aliceblue;
+
+}
+.ContactUs {
+    height: 2rem;
+    width: 5rem;
+    background: aliceblue;
+
+}
+.SignIn {
+    height: 2rem;
+    width: 5rem;
+    background: aliceblue;
+
+}
+.Register {
+    height: 2rem;
+    width: 5rem;
+    background: aliceblue;
+}
+.LogoImage {
+    background: aliceblue;
+
+}
