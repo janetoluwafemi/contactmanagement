@@ -1,5 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-image: url("/pictures/360_F_337963325_EJuPjWslX3vAFxJ59L3y1cm6IsSfo07s.jpg");
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+/*body{*/
+/*    background-image: url("/pictures/register-sign-up-membership-concept_53876-121221.jpg");*/
+/*}*/
+.RegisterPageBackGround {
+    box-sizing: border-box;
+    background-position: center;
+}
+.register {
+    flex-direction: column;
+    height: auto;
+    width: 80%;
+    position: relative;
+}
+.registerPage {
+    height: auto;
+    width: 80%;
+}
+.registerImage {
+    height: 40rem;
+    width: 42rem;
+    margin-left: 40rem;
+    margin-bottom: -29rem;
+}
+.btnDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18rem;
+    margin-right: 50rem;
+}
+.FirstName {
+    width: 20rem;
+    height: 3rem;
+    background: aliceblue;
+    text-align: left;
+    font-size: 1rem;
+}
+.LastName {
+    width: 20rem;
+    height: 3rem;
+    background: aliceblue;
+    text-align: left;
+    font-size: 1rem;
+
+}
+.Email {
+    width: 20rem;
+    height: 3rem;
+    background: aliceblue;
+    text-align: left;
+    font-size: 1rem;
+
+}
+.Password {
+    width: 20rem;
+    height: 3rem;
+    background: aliceblue;
+    text-align: left;
+    font-size: 1rem;
+
+}
+.PhoneNumber {
+    width: 20rem;
+    height: 3rem;
+    background: aliceblue;
+    text-align: left;
+    font-size: 1rem;
+}
+.welcome {
+    margin-left: 3rem;
+    margin-top: -56rem;
+    font-size: 5rem;
+    height: 20rem;
+    width: 50rem;
 }

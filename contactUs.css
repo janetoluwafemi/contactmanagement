@@ -1,0 +1,34 @@
+.ContactUsPicture {
+    height: 35rem;
+    width: 48rem;
+}
+.contactUs {
+    height: 5rem;
+    width: 15rem;
+    font-size: 2rem;
+    margin-left: 50rem;
+    margin-top: -30rem;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 52rem;
+    margin-top: -2rem;
+    height: 20rem;
+    width: 5rem;
+    gap: 2rem;
+}
+.Name {
+    height: 5rem;
+    width: 25rem;
+}
+.Email {
+    height: 5rem;
+    width: 25rem;
+}
+.Enter {
+    background-color: white;
+    height: 3rem;
+    width: 5rem;
+    color: maroon;
+}

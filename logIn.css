@@ -1,0 +1,34 @@
+.SignInImage {
+    height: 36rem;
+    width: 45rem;
+}
+.LoginP {
+    height: 5rem;
+    width: 15rem;
+    font-size: 3rem;
+    margin-left: 55rem;
+    margin-top: -27rem;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48rem;
+    margin-top: -25rem;
+    height: 20rem;
+    width: 5rem;
+    gap: 2rem;
+}
+.Email {
+    height: 3rem;
+    width: 25rem;
+}
+.Password {
+    height: 3rem;
+    width: 25rem;
+}
+.Enter {
+    background-color: white;
+    height: 2rem;
+    width: 5rem;
+    color: maroon;
+}

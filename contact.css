@@ -1,9 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    background-image: url("/pictures/360_F_337963325_EJuPjWslX3vAFxJ59L3y1cm6IsSfo07s.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background-image: url("/pictures/360_F_337963325_EJuPjWslX3vAFxJ59L3y1cm6IsSfo07s.jpg");
+}
+.contactBackgroundWrapper{
+    box-sizing: border-box;
+    background-position: center;
 }
 .ContactImage {
     flex-direction: column;
@@ -13,7 +19,7 @@
 }
 .imageOfPhone {
     height: auto;
-    width: 80%;
+    width: 10%;
 }
 .ContactImage.btn {
     height: 2rem;
@@ -23,32 +29,41 @@
     display: flex;
     flex-direction: row;
     justify-content: right;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 .AboutUs {
-    height: 2rem;
-    width: 5rem;
+    height: 3rem;
+    width: 8rem;
     background: aliceblue;
 
 }
 .ContactUs {
-    height: 2rem;
-    width: 5rem;
+    height: 3rem;
+    width: 8rem;
     background: aliceblue;
 
 }
 .SignIn {
-    height: 2rem;
-    width: 5rem;
+    height: 3rem;
+    width: 8rem;
     background: aliceblue;
-
 }
-.Register {
-    height: 2rem;
-    width: 5rem;
+.Login{
+    height: 3rem;
+    width: 8rem;
     background: aliceblue;
 }
 .LogoImage {
     background: aliceblue;
-
+}
+.contactImage {
+    margin-top: -3rem;
+    height: 20rem;
+    width: 22rem;
+}
+.Welcome {
+    background: aliceblue;
+    justify-content: right;
+    text-align: center;
+    font-size: 5rem;
 }
