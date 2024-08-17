@@ -1,12 +1,3 @@
-/**{*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    background-size: cover;*/
-/*    background-repeat: no-repeat;*/
-/*}*/
-/*body{*/
-/*    background-image: url("/pictures/register-sign-up-membership-concept_53876-121221.jpg");*/
-/*}*/
 .RegisterPageBackGround {
     box-sizing: border-box;
     background-position: center;
@@ -23,15 +14,16 @@
 }
 .registerImage {
     height: 40rem;
-    width: 42rem;
-    margin-left: 40rem;
-    margin-bottom: -29rem;
+    width: 41rem;
+    margin-left: 37rem;
+    margin-top: -33rem;
 }
 .btnDiv {
-    display: flex;
+    gap: 1rem;
     flex-direction: column;
-    margin-top: 18rem;
-    margin-right: 50rem;
+    margin-top: -28rem;
+    margin-left: 5rem;
+    display:grid;
 }
 .FirstName {
     width: 20rem;
@@ -71,10 +63,24 @@
     text-align: left;
     font-size: 1rem;
 }
+.register {
+    width: 1rem;
+    height: 3rem;
+    background: red;
+    text-align: left;
+    font-size: 1.5rem;
+}
 .welcome {
-    margin-left: 3rem;
-    margin-top: -56rem;
-    font-size: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 10rem;
+    font-size: 3rem;
     height: 20rem;
     width: 50rem;
+}
+.registerButton{
+    width:80px;
+    height:40px;
+    margin-left: 5rem;
+    color: black;
+    background: red;
 }

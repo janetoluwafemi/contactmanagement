@@ -1,0 +1,38 @@
+.image {
+    height: 42rem;
+    width: 42rem;
+    margin-left: 36rem;
+    margin-top: -10rem;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    width: 20rem;
+    margin-top: -20rem;
+    gap: 1rem;
+}
+.Name {
+    height: 3rem;
+    width: 20rem;
+}
+.Email {
+    height: 3rem;
+    width: 20rem;
+}
+.register {
+    height: 2rem;
+    width: 5rem;
+    margin-left: 5rem;
+    text-align: center;
+    background: indianred;
+    color: black;
+    font-size: 1.2rem;
+}
+.signPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: -2rem;
+    font-size: 2rem;
+}

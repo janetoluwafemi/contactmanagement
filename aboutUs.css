@@ -1,0 +1,48 @@
+.AboutUsImage {
+    height: 15rem;
+    width: 79rem;
+    margin-top: -1rem;
+}
+.note {
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+}
+.noteNote {
+    font-size: 4rem;
+    height: 2rem;
+    width: 5rem;
+    margin-top: -1rem;
+}
+.home {
+    height: 2rem;
+    width: 5rem;
+    font-size: 1rem;
+    margin-top: -0.2rem;
+}
+.paragraphs {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    height: 10rem;
+    width: 50rem;
+    font-size: 1rem;
+}
+.Heading {
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 10rem;
+}
+.paragraphs2 {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    height: 15rem;
+    width: 50rem;
+    font-size: 1rem;
+}
+.Heading2 {
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 10rem;
+}
